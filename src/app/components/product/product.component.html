@@ -13,6 +13,7 @@
       <th scope="col">Name</th>
       <th scope="col">Category Id</th>
       <th scope="col">Unit Price</th>
+      <th scope="col">Unit In Stock</th>
     </tr>
   </thead>
   <tbody *ngFor="let product of products">
@@ -21,6 +22,7 @@
       <td>{{ product.productName }}</td>
       <td>{{ product.categoryId }}</td>
       <td>{{ product.unitPrice }}</td>
+      <td>{{ product.unitsInStock }}</td>
     </tr>
   </tbody>
 </table>
